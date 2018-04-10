@@ -1,0 +1,62 @@
+AngularJS
+
+- primarily used to make single page, data-driven applications
+- additional content brought into the web page without the need to refresh
+- use 'views' (the V in MVC) to achieve this
+
+What is MVC?
+
+- programming methodology aiming to split to three core components
+
+Model
+	- think of the model as data
+	- json, database data etc.
+
+View
+	- used to display content & data to a user in a browser
+	- html
+	- use expressions to insert data into views 
+		<html tag> {{ data }} </html tag>
+
+Controller
+	- Control the functionality of our views
+	- performs the interaction between our models and our views
+	- the javascript, jquery etc.
+
+Example: Showing a list of users when a button is clicked
+
+	The 'View' displays the button
+	The 'Controller' detects if the button has been clicked
+	The 'Controller' talks to the 'Model' to get the list of the users
+	The 'Controller' then brings the list of the users to the 'View'
+	The 'View' displays the list of the users
+
+
+Directives
+	ng-app
+	ng-model
+
+Expressions
+	{{favMeat}}
+
+
+Past examples:
+	<input type="text" ng-model="favMeat" placeholder="enter your fav meat">
+   <p>Your fav meat is {{favMeat}}</p>
+
+   <p>{{ 5 * 10 }}</p>
+
+   <!-- displaying an array -->
+   <!-- <p>You like {{meats[1]}} and you also like {{meats[2]}}</p> -->
+   
+   <!-- initialize a data when it loads -->
+    <div ng-init="color='orange'">
+   	 <p class="{{color}}">Hello dudes</p>
+    </div>
+
+	<!-- ng-repeat -->
+	<div ng-init="ninjas=['yoshi', 'crystal', 'ryu', 'shaun']">
+		<ul>
+			<li ng-repeat='ninja in ninjas'>{{ninja}}</li>
+		</ul>
+	</div>
