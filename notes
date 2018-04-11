@@ -1,6 +1,6 @@
 AngularJS
 
-- primarily used to make single page, data-driven applications
+- primar1ly used to make single page, data-driven applications
 - additional content brought into the web page without the need to refresh
 - use 'views' (the V in MVC) to achieve this
 
