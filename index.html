@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!-- take note of ng-app -->
+<html lang="en" ng-app="myNinjaApp">
+
+<head>
+    <!-- <base href="/"> -->
+    <title>TheNetNinja Angular Playlist</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link href="content/css/styles.css" rel="stylesheet" type="text/css" />
+    <!-- angularJS should be added at the top -->
+    <script src="app/lib/angular.min.js"></script>
+    <!-- take note of route.min.js -->
+    <script src="app/lib/angular-route.min.js"></script>
+    <script src="app/lib/angular-animate.min.js"></script>
+    <script src="app/app.js"></script>
+</head>
+
+<body>
+    <!-- inserting something -->
+    <!-- <ng-include src="'header.html'"></ng-include> -->
+    <header ng-include="'header.html'"></header>
+    <main ng-view></main>
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+[{
+	"name": "Yoshi",
+	"belt": "Green",
+	"rate": 50,
+	"available": true,
+	"thumb": "http://via.placeholder.com/30x30"
+}, {
+	"name": "Crystal",
+	"belt": "Pink",
+	"rate": 30,
+	"available": true,
+	"thumb": "http://via.placeholder.com/30x30"
+}, {
+	"name": "Ryu",
+	"belt": "Orange",
+	"rate": 10,
+	"available": false,
+	"thumb": "http://via.placeholder.com/30x30"
+}, {
+	"name": "Shaun",
+	"belt": "Black",
+	"rate": 1000,
+	"available": true,
+	"thumb": "http://via.placeholder.com/30x30"
+}]
